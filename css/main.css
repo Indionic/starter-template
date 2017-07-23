@@ -1,1 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");html{position:relative;min-height:100%}body{font-family:'Open Sans', sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;margin-bottom:60px}h1,h2,h3,h4,h5,h6{font-weight:700}footer{height:60px;background-color:#f5f5f5;font-size:14px;line-height:20px;position:absolute;bottom:0;width:100%}footer .footer-text{margin:20px 0;display:inline-block}
+
+#map{
+	height: 500px;
+}
