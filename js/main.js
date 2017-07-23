@@ -26,8 +26,8 @@ var mapOptions = {
   '</div>'+
   '<h1 id="firstHeading" class="firstHeading">Floreat Location</h1>'+
   '<div id="bodyContent">'+
-  '<p><strong>Address:</strong><br>81/5 Howtree Pl, Floreat WA 6014</p>'+
-  '<p><strong>Phone:</strong><br>(08) 6161 0322</p>'+
+  '<p><strong>Address:</strong><br>5 Howtree Pl, Floreat WA 6014</p>'+
+  '<p><strong>Phone:</strong><br>(08) XXXX XXXX</p>'+
   '<p><strong>Opening Hours:</strong><br>Sunday: 10am-8:30pm<br>Monday-Wednesday: 8:30am-8:30pm<br>Thursday-Saturday: 8:30am-9pm</p>'+
   '</div>'+
   '</div>';
@@ -37,8 +37,8 @@ var mapOptions = {
   '</div>'+
   '<h1 id="firstHeading" class="firstHeading">Victoria Park Location</h1>'+
   '<div id="bodyContent">'+
-  '<p><strong>Address:</strong><br>12/910 Albany Hwy,<br>East Victoria Park WA 6101</p>'+
-  '<p><strong>Phone</strong>:<br>(08) 9355 3702</p>'+
+  '<p><strong>Address:</strong><br>910 Albany Hwy,<br>East Victoria Park WA 6101</p>'+
+  '<p><strong>Phone</strong>:<br>(08) XXXX XXXX</p>'+
   '<p><strong>Opening Hours:</strong><br>Sunday-Thursday: 11am-9:30pm<br>Friday-Saturday: 11:00am-10:00pm</p>'+
   '</div>'+
   '</div>';
@@ -83,7 +83,7 @@ markerFloreat.addListener('click', function() {
 });
 
 var markerVicPark = new google.maps.Marker({
-	position: {lat: -31.987114, lng: 115.904968},
+  position: {lat: -31.987114, lng: 115.904968},
 	map: map,
 	title: 'Victoria Park Location'
 });
