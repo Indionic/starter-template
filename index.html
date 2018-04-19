@@ -2,7 +2,6 @@
 <html lang="en-AU">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site description here...">
     <title>Title Goes Here</title>
@@ -28,7 +27,7 @@
 
     <!-- CSS -->
     <link href="/plugins/bootstrap/bootstrap.min.css" media="all" rel="stylesheet">
-    <link href="/plugins/font-awesome/font-awesome.min.css" rel="stylesheet">
+    <link href="/plugins/fontawesome/css/fontawesome-all.min.css" rel="stylesheet">
     <link href="/css/main.css" media="all" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -68,24 +67,57 @@
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -96,21 +128,23 @@
       <p class="lead">This is a <em>starter template</em> for <strong>landing pages</strong>.</p>
       <h2 class="h4">This starter template features:</h2>
       <ul>
-        <li>Bootstrap <code>v3.7.7</code> (<a href="https://getbootstrap.com/">https://getbootstrap.com/</a>)</li>
-        <li>jQuery <code>v3.2.1</code> (<a href="https://jquery.com/">https://jquery.com/</a>)</li>
-        <li>FontAwesome <code>v4.7.0</code> (<a href="http://fontawesome.io/">http://fontawesome.io/</a>)</li>
+        <li>jQuery <code>v3.3.1</code> (<a href="https://jquery.com/">https://jquery.com/</a>)</li>
+        <li>Popper <code>v1.14.3</code> (<a href="https://popper.js.org/">https://popper.js.org/</a>)</li>
+        <li>Bootstrap <code>v4.1.0</code> (<a href="https://getbootstrap.com/">https://getbootstrap.com/</a>)</li>
+        <li>FontAwesome <code>v5.0.10</code> (<a href="https://fontawesome.com/">https://fontawesome.com/</a>)</li>
       </ul>
-      <a href="https://github.com/clkandmortar/starter-template"><i class="fa fa-github" aria-hidden="true"></i> GitHub repository</a>
+      <a href="https://github.com/Indionic/starter-template"><i class="fa fa-github" aria-hidden="true"></i> GitHub repository</a>
     </div>
 
     <footer>
       <div class="container">
-        <span class="footer-text">&copy; 2017 <a href="http://www.example.com">Site Title Here</a></span>
+        <span class="footer-text">&copy; 2018 <a href="http://www.example.com">Site Title Here</a></span>
       </div>
     </footer>
 
     <!-- Plugin JS -->
     <script src="/plugins/jquery/jquery.min.js" charset="utf-8"></script>
+    <script src="/plugins/popper/popper.min.js" charset="utf-8"></script>
     <script src="/plugins/bootstrap/bootstrap.min.js" charset="utf-8"></script>
     <script src="/js/main.js" charset="utf-8"></script>
   </body>

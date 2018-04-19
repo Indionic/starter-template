@@ -11,4 +11,4 @@ Disallow: /
 #User-agent: *
 #Disallow: /contact-success.html
 
-#Sitemap: http://example.com/sitemap.xml
+#Sitemap: http://www.example.com/sitemap.xml

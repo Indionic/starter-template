@@ -2,12 +2,12 @@
 This is a starter template for landing pages.
 
 **This starter template features**:
-- Bootstrap `v3.7.7` (https://getbootstrap.com/)
-- jQuery `v3.2.1` (https://jquery.com/)
-- FontAwesome `v4.7.0` (http://fontawesome.io/)
+- Bootstrap `v4.1.0` (https://getbootstrap.com/)
+- jQuery `v3.3.1` (https://jquery.com/)
+- FontAwesome `v5.0.10` (https://fontawesome.com/)
 
-[GitHub repository](https://github.com/clkandmortar/starter-template/)
-[Live Demo](http://starter-template.clkandmortar.com/)
+[GitHub repository](https://github.com/Indionic/starter-template/)
+[Live Demo](http://starter-template.indionic.com/)
 
 ### Roll-out Checklist
 - [ ] Clone the repo
