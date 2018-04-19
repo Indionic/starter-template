@@ -2,8 +2,9 @@
 This is a starter template for landing pages.
 
 **This starter template features**:
-- Bootstrap `v4.1.0` (https://getbootstrap.com/)
 - jQuery `v3.3.1` (https://jquery.com/)
+- Popper `v1.14.3` (https://popper.js.org/)
+- Bootstrap `v4.1.0` (https://getbootstrap.com/)
 - FontAwesome `v5.0.10` (https://fontawesome.com/)
 
 [GitHub repository](https://github.com/Indionic/starter-template/)
